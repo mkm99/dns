@@ -12,7 +12,6 @@ The client performs the following functions:
 a. IP address of server (127.0.0.1)\
 b. Port of server\
 c. Hostname (e.g. host1.student.test)
-<br>
 
 2. Sends a request with the specified hostname to the server using the message format specified
 
@@ -26,7 +25,6 @@ The server performs the following functions:
 1. Reads in 2 arguments from the command line:\
 a. IP address of server (127.0.0.1)\
 b. Port of server
-<br>
 
 2. Reads in the master file named “dns-master.txt”
 
