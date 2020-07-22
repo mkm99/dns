@@ -79,5 +79,6 @@ while True:
     toSend = struct.pack('!HHIHH', messageType, returnCode, messageIdentifier, questionLength, answerLength) \
              + questionString + answerSectionEncoded
 
+    # This block is commented out to simulate a not response from the server
     # Echo back to client
     # serverSocket.sendto(toSend, address)
