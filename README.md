@@ -1,5 +1,5 @@
 # dns
-_This project is from my networking class and the requirements belong to my professor_
+_This project is from my networking class_
 
 The program uses UDP sockets to show a simplified version of a DNS client and server. The server is
 responsible for the domain “student.test”. The client will send a request to the server to look up the IP
